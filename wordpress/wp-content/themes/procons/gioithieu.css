@@ -1,0 +1,70 @@
+.title-gioithieu {
+  width: 100%;
+  height: 60px;
+  background-color: #3a3a3a;
+}
+.title-gioithieu p {
+  color: #fff;
+  text-align: center;
+}
+.congviec h1 {
+  margin: 0px 0px 0px 0px;
+  padding: 5px 0px 5px 5px;
+  border-style: solid;
+  border-width: 0px 0px 0px 5px;
+  border-radius: 0px 0px 0px 0px;
+  margin-top: 10px;
+}
+.tuvan {
+  margin-top: 30px;
+}
+.sub-tuvan {
+  background-image: linear-gradient(160deg, #eff2ef 51%, #d9d9db 99%);
+}
+.ban {
+  margin-top: 30px;
+}
+.sub-ban {
+  background-image: linear-gradient(160deg, #eff2ef 51%, #d9d9db 99%);
+}
+.concept {
+  margin-top: 30px;
+}
+.sub-concept {
+  background-image: linear-gradient(160deg, #eff2ef 51%, #d9d9db 99%);
+}
+.sanxuat {
+  margin-top: 30px;
+}
+.sub-sanxuat {
+  background-color: black;
+}
+.sub-sanxuat h1 {
+  color: #fff;
+}
+.phukien {
+  margin-top: 30px;
+}
+.sub-phukien {
+  background-color: black;
+}
+.sub-phukien h1 {
+  color: #fff;
+}
+.button {
+  margin-top: 30px;
+}
+
+.sub-button a {
+  font-size: 15px;
+  padding: 12px 24px;
+  background-color: #54595f;
+  font-family: "Roboto", Sans-serif;
+  font-weight: 500;
+  border-radius: 3px;
+  color: #fff;
+  margin-left: 555px;
+}
+.description {
+    margin-top: 30px;
+}

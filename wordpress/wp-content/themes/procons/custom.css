@@ -1,0 +1,635 @@
+body {
+  margin: 0 !important;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+/* Header */
+.branding {
+  background-color: rgb(255, 255, 255);
+}
+
+.site-branding > a > img {
+  margin-left: 30px;
+  max-width: 100px !important;
+}
+
+.menu-right {
+  display: flex;
+  align-items: center;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search .title a {
+  color: #545454;
+}
+.search .socical {
+  margin-left: 20px;
+}
+
+.sub-menu > li {
+  padding: 10px;
+}
+.menu.nav-menu li {
+  padding: 0 !important;
+}
+ul.sub-menu {
+  display: flex;
+  flex-direction: column;
+}
+.nav-menu > li > .sub-menu {
+  background-color: #fff;
+}
+
+#primary-menu .sub-menu {
+  width: 300px;
+}
+
+.main-navigation ul ul a {
+  width: 100%;
+}
+.main-navigation {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#primary-menu > li > a {
+  color: #020101;
+  font-weight: 500;
+}
+.main-navigation1 ul {
+  display: flex;
+  display: grid;
+  grid-template-rows: auto;
+  list-style: none;
+}
+/* End Header */
+#top-header {
+  background-color: #000000;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.fa-brands,
+.fa-solid {
+  font-size: 25px;
+}
+.fa-brands:hover {
+  color: rgb(196, 177, 177);
+  -webkit-transition: all 2s;
+}
+.site-branding img.custom-logo {
+  max-width: 200px;
+}
+.menu.nav-menu li {
+  padding: 10px;
+}
+ul.sub-menu {
+  display: flex;
+  flex-direction: column;
+}
+.menu-trai-container {
+  color: blue;
+  font-weight: 700;
+}
+.social {
+  float: right;
+}
+.social > .facebook  {
+  color: darkgray !important; 
+}
+
+.nav-menu > li > .sub-menu {
+  background-color: #fff;
+}
+/* End Header */
+
+.menu-home-container > ul > li > a {
+  list-style-type: none;
+  float: left;
+  padding: 10px;
+  text-transform: uppercase;
+  border-bottom: 2px solid white;
+  font-size: 13px;
+}
+.menu-home-container > ul > li > a:hover {
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.block2 .title {
+  margin: 30px 0px 10px 0px;
+}
+.block2 .title h1 {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 40px;
+  color: #000;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.block2 .title p {
+  font-size: 15px;
+  font-family: "Arial";
+  line-height: 25px;
+  text-align: justify;
+  color: #4e4e4e;
+}
+.block2 .box-about {
+  margin-top: 10px;
+  text-align: right;
+}
+.block3 {
+  margin-top: 30px;
+}
+.block3 {
+  background: url(https://aconcept-uniform.com/wp-content/themes/aconcept-uniform/images/17887192.png)
+    no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.img {
+  width: auto;
+  height: 450px;
+}
+.block3 .title {
+  position: absolute;
+  width: auto;
+  height: 90%;
+  text-transform: uppercase;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 50px;
+  margin-left: 350px;
+}
+.block3 .title a {
+  color: #fff;
+}
+.block3 .title a:hover {
+  border-bottom: 5px solid #fff;
+}
+
+.block4 .title {
+  text-align: center;
+  display: block;
+  margin-top: 40px;
+}
+.block4 .title a {
+  color: #fff;
+  cursor: pointer;
+}
+.block4 .title a span {
+  background: #000;
+  /* color: #fff; */
+  font-size: 30px;
+  /* text-transform: uppercase; */
+  font-family: "SFUGillSansBold";
+  /* position: relative; */
+  display: inline-block;
+  padding: 4px 15px;
+  border: 10px double #fff9f9;
+}
+.timeline {
+  /* margin-top: 3em; */
+  /* margin-top: 0em; */
+  /* margin-bottom: 3em; */
+  /* position: relative; */
+  padding: 0em 0;
+  /* margin-top: 2em; */
+  /* margin-bottom: 2em; */
+}
+@media only screen and (min-width: 1170px) {
+  .timeline::before {
+    left: 50%;
+    /* margin-left: -2px; */
+    margin-left: 0px;
+  }
+}
+.timeline::before {
+  content: "";
+  position: absolute;
+  /* top: 0; */
+  left: 18px;
+  height: 610px;
+  /* width: 4px; */
+  width: 2px;
+  background: #000;
+  left: 50%;
+  /* margin-left: -2px; */
+  margin-left: 0px;
+}
+.timeline::after {
+  display: table;
+  table-layout: fixed;
+}
+.box-daotao1 {
+  text-align: right;
+}
+
+.icon-right {
+  visibility: visible;
+  /* -webkit-animation: cd-bounce-1 0.6s; */
+  -moz-animation: cd-bounce-1 0.6s;
+  animation: cd-bounce-1 0.6s;
+}
+.icon-right img {
+  display: block;
+  width: 35px;
+  height: 26px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -20px;
+  margin-top: -45px;
+}
+.icon-left {
+  visibility: visible;
+  /* -webkit-animation: cd-bounce-1 0.6s; */
+  -moz-animation: cd-bounce-1 0.6s;
+  animation: cd-bounce-1 0.6s;
+}
+.icon-left img {
+  display: block;
+  width: 35px;
+  height: 26px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -13px;
+  margin-top: -45px;
+}
+
+.thietke2 {
+  margin-left: -30px;
+}
+.thietke4 {
+  margin-top: 20px;
+  margin-left: -35px;
+}
+.thietke5 {
+  text-align: right;
+}
+.thietke6 {
+  margin-left: -30px;
+}
+.thietke9 {
+  text-align: right;
+}
+.thietke10 {
+  margin-left: -30px;
+}
+.box-daotao3 {
+  margin-left: 30px;
+}
+.box-daotao2 h2 {
+  color: #333;
+}
+.box-daotao3 h2 {
+  color: #333;
+}
+.box-daotao4 {
+  margin-left: -30px;
+}
+.box-daotao7 {
+  margin-left: 30px;
+}
+.box-daotao8 {
+  margin-left: -15px;
+}
+.box-daotao5 {
+  margin-top: 20px;
+}
+.box-daotao8 {
+  margin-top: 20px;
+}
+.box-daotao6 {
+  margin-top: 10px;
+}
+.box-daotao6 h2 {
+  color: #333;
+}
+
+.box-daotao7 h2 {
+  color: #333;
+}
+.box-daotao10 h2 {
+  color: #333;
+}
+
+.block5 {
+  margin-top: 50px;
+}
+.block5 .title {
+  text-align: center;
+}
+.block5 .title a h3 {
+  font-weight: 500;
+}
+.block5 .title p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  width: 1000px;
+  margin: auto;
+  display: block;
+  padding-bottom: 10px;
+}
+.block5 .title a img {
+  max-width: 100px;
+}
+.block10 {
+  margin-top: 50px;
+}
+.block10 .container-fluid {
+  padding: 0;
+}
+.block10 .container-fluid .video {
+  margin-top: 30px;
+}
+.block10 .title {
+  text-align: center;
+}
+.block10 .title a h3 {
+  font-weight: 500;
+  color: black;
+}
+.block10 .title p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  width: 1000px;
+  margin: auto;
+  display: block;
+  padding-bottom: 10px;
+}
+.block10 .title a img {
+  max-width: 100px;
+}
+.block6 {
+  background: url(https://aconcept-uniform.com/wp-content/themes/aconcept-uniform/images/00769097.jpg)
+    no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin-top: 20px;
+}
+.block6 .container {
+  max-width: 1200px;
+}
+.box-block6-content {
+  font-size: 16px;
+  font-family: "Arial";
+  text-align: justify;
+  color: #171717;
+}
+.box-daotao11 {
+  padding: 126px;
+}
+.box-daotao11 img {
+  width: 150px;
+}
+.box-daotao12 {
+  /* text-align: center; */
+  padding: 120px 0;
+}
+
+.box-daotao12 a h2 {
+  color: #171717;
+  font-size: 38px;
+  text-transform: uppercase;
+  -webkit-transition: ease-in-out 0.5s;
+  -o-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+}
+
+.block7 {
+  background: #ededed;
+  margin-top: 20px;
+}
+
+.sub-block-8 {
+  background: #a29898;
+}
+.sub-block-8 {
+  display: flex;
+  width: 300px;
+  height: 150px;
+}
+.sub-img-8 {
+  padding: 10px;
+}
+.sub-img-8 img {
+  width: 200px;
+  height: 130px;
+}
+.sub-text-8 .content {
+  color: #fff;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+ .sub-text-noidung {
+  color: #fff;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.block8-title {
+  margin-top: 20px;
+}
+
+.block9 {
+  background: url(https://aconcept-uniform.com/wp-content/themes/aconcept-uniform/images/14898876.png)
+    no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.block9 .container {
+  max-width: 1200px;
+}
+.box-block9-content {
+  font-size: 16px;
+  font-family: "Arial";
+  text-align: justify;
+  color: #171717;
+}
+.box-block9-content p {
+  color: #fff;
+}
+.box-daotao15 {
+  padding: 126px;
+}
+.box-daotao15 img {
+  width: 150px;
+}
+.box-daotao13 {
+  /* text-align: center; */
+  padding: 120px 0;
+}
+
+.box-daotao13 a h2 {
+  color: #ffffff;
+  font-size: 38px;
+  text-transform: uppercase;
+  -webkit-transition: ease-in-out 0.5s;
+  -o-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+}
+
+.footer-text {
+  color: #05060a;
+  font-size: 34px;
+  background: url(https://aconcept-uniform.com/wp-content/themes/aconcept-uniform/images/line_footer.png)
+    repeat-x center left;
+  text-align: center;
+  font-family: "SFUGillSansBold";
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.footer-text span {
+  background: white;
+  padding: 0 20px;
+}
+.footer-left h3 {
+  margin-left: 90px;
+}
+.dangkitinnhan {
+  margin-bottom: 25px;
+}
+.dangkitinnhan .title p {
+  color: #000;
+  padding-left: 0px;
+  font-family: "SFUGillSansRegular";
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  background: url(https://aconcept-uniform.com/wp-content/themes/aconcept-uniform/images/line_footer2.png)
+    no-repeat bottom left;
+  padding-bottom: 5px;
+}
+.footer-form .gui {
+  background: black;
+  color: white;
+}
+.dangkitinnhan .lienhe {
+  color: #000;
+  padding-left: 0px;
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  background: url(https://aconcept-uniform.com/wp-content/themes/aconcept-uniform/images/line_footer2.png)
+    no-repeat bottom left;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+.dangkitinnhan .congty {
+  line-height: 30px;
+  font-size: 30px;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.menu-footer ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.menu-footer ul li {
+  color: #000;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 30px;
+  margin-bottom: 5px;
+  line-height: 30px;
+  text-align: left;
+  text-transform: none;
+}
+.menu-footer ul li:first-of-type {
+  background: url(https://aconcept-uniform.com/wp-content/themes/aconcept-uniform/images/footer_address.png)
+    no-repeat left center;
+}
+.menu-footer ul li:nth-of-type(2) {
+  background: url(https://aconcept-uniform.com/wp-content/themes/aconcept-uniform/images/footer_phone.png)
+    no-repeat left 7px center;
+}
+.menu-footer ul li:nth-of-type(3) {
+  background: url(https://aconcept-uniform.com/wp-content/themes/aconcept-uniform/images/footer_email.png)
+    no-repeat left center;
+}
+.menu-footer ul li:last-of-type {
+  background: url(https://aconcept-uniform.com/wp-content/themes/aconcept-uniform/images/footer_website.png)
+    no-repeat left center;
+}
+.copy-right {
+  color: #404040;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 18px;
+  margin-top: 30px;
+}
+.copy-right a {
+  color: black;
+}
+
+/* Phan trang  */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination a {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.pagination a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.pagination a {
+  animation: shine 0.5s ease-in-out;
+}
+
+@keyframes shine {
+  0% {
+    background-color: #ddd;
+  }
+
+  50% {
+    background-color: #fff;
+  }
+
+  100% {
+    background-color: #ddd;
+  }
+}
+.scroll-top {
+  position: fixed;
+  z-index: 1001;
+  right: 4px;
+  top: 90%;
+  cursor: pointer;
+}
+/* End Phan trang */
